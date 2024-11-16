@@ -9,7 +9,7 @@ jobs:
 
    steps:
     - name: Test
-      run: "Aman"
+      run: echo "Aman"
     
    
 
