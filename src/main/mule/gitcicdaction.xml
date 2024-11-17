@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="gitcicdactionFlow" doc:id="82910257-0704-4a59-98b9-64de374f0d4a" >
 		<http:listener doc:name="Listener" doc:id="3d1f5616-aad8-4790-882d-651384e0b4d0" config-ref="HTTP_Listener_config" path="/test"/>
-		<logger level="INFO" doc:name="Logger" doc:id="59a8a3ee-5ad8-455f-b945-5349f188ccba" message="Start Flow "/>
+		<logger level="INFO" doc:name="Logger" doc:id="59a8a3ee-5ad8-455f-b945-5349f188ccba" message="Start  Flow "/>
 		<ee:transform doc:name="Transform Message" doc:id="bc5bffa9-0f85-445b-b8be-b855aef17ea0" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
